@@ -6,3 +6,4 @@
 
 # Демо игры
 
+![](https://github.com/Dmitriy-Bitsenko/the_snake/blob/main/the_snake.gif)
