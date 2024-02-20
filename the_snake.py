@@ -1,11 +1,8 @@
 import sys
-from abc import abstractmethod
+import abc
 from random import choice, randint
-
 import pygame
 
-
-# Инициализация PyGame:
 pygame.init()
 
 # Константы для размеров поля и сетки:
@@ -52,7 +49,7 @@ class GameObject:
         self.position = ((SCREEN_WIDTH // 2), (SCREEN_HEIGHT // 2))
         self.body_color = None
 
-    @abstractmethod
+    @abc.abstractmethod
     def draw(self):
         """Абстрактный метод,
         предназначен для переопределения в дочерних классах.
