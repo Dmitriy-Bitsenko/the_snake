@@ -1,6 +1,7 @@
 import sys
 import abc
 from random import choice, randint
+
 import pygame
 
 pygame.init()
